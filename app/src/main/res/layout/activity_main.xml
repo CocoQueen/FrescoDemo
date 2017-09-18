@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.coco.frescodemo.MainActivity">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/mSim"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        fresco:placeholderImage="@mipmap/ic_launcher_round"
+        fresco:roundBottomLeft="false"
+        fresco:roundBottomRight="false"
+        fresco:roundWithOverlayColor="#00f"
+        fresco:roundedCornerRadius="5dp"
+        fresco:roundingBorderColor="#f00"
+        fresco:roundingBorderWidth="1dp" />
+
+</LinearLayout>
